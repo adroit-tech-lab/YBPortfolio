@@ -37,6 +37,16 @@ import event2 from '../../assets/work/event2.jpg';
 import event3 from '../../assets/work/event3.jpg';
 import event4 from '../../assets/work/event4.jpg';
 
+import ebook1 from '../../assets/work/ebook1.jpg';
+import ebook2 from '../../assets/work/ebook2.jpg';
+import ebook3 from '../../assets/work/ebook3.jpg';
+import ebook4 from '../../assets/work/ebook4.jpg';
+
+import poster1 from '../../assets/work/poster1.jpeg';
+import poster2 from '../../assets/work/poster2.jpeg';
+import poster3 from '../../assets/work/poster3.jpeg';
+import poster4 from '../../assets/work/poster4.jpg';
+
 const categories = [
   {
     id: 'branding',
@@ -55,8 +65,13 @@ const categories = [
   },
   {
     id: 'flyer',
-    title: 'Flyer & Poster Design',
+    title: 'Flyer Design',
     images: [flyer1, flyer2, flyer3, flyer4],
+  },
+  {
+    id: 'poster',
+    title: 'Poster Design',
+    images: [poster1, poster2, poster3, poster4],
   },
   {
     id: 'social',
@@ -73,6 +88,11 @@ const categories = [
     title: 'Event Design',
     images: [event1, event2, event3, event4],
   },
+  {
+    id: 'ebook',
+    title: 'Ebook Design',
+    images: [ebook1, ebook2, ebook3, ebook4],
+  }
 ];
 
 const MoreWork = () => {
