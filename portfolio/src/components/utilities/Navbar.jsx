@@ -91,7 +91,7 @@ const Navbar = () => {
             </div>
 
             <a
-              href="#start_project"
+              href="https://wa.me/2348101785839"
               className="group inline-flex items-center gap-2 rounded-full bg-blue-600 px-5 py-3 text-sm font-semibold text-white transition-colors duration-300 hover:bg-white hover:text-blue-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2"
             >
               Start a Project
